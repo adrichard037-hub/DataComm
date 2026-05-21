@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Comm Summary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Raleway:wght@300;400;500;600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="tsparticles" aria-hidden="true"></div>
+ 
+<nav>
+  <div class="nav-brand">DataComm Summary</div>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#bio">Bio</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#resources">Resources</a></li>
+  </ul>
+</nav>
+
+  <!-- SECTION 1: BIO -->
+  <section id="bio">
+    <div class="inner">
+      <div class="section-header">
+        <h2>My Bio</h2>
+      </div>
+
+      <div class="bio-layout">
+        <div class="bio-image-wrap">
+          <div class="bio-img">
+            <img
+              src="images/me.png"
+              alt="Profile photo">
+          </div>
+          <div class="bio-identity">
+            <h2 class="bio-name">Adam Richard Owusu</h2>
+            <h3 class="bio-ID">PUIT/24210149</h3>
+          </div>
+        </div>
+
+        <div class="bio-content">
+          <p class="bio-text">
+            I am a passionate IT student of Pentecost University with a keen interest in how systems communicate and exchange data. Studying data communication has opened my eyes to the invisible infrastructure that powers the modern digital world from the fibre cables beneath the ocean to the Wi-Fi signal in my room.
+          </p>
+
+          <div class="inspiration-block">
+            <div class="inspiration-label">Inspiration</div>
+            <p class="inspiration-quote">"The internet is becoming the town square for the global village of tomorrow."</p>
+            <p class="inspiration-author">&mdash; Bill Gates</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: OVERVIEW -->
+  <section id="overview">
+    <div class="fade-up tag-line">&#x2014; Course Summary &#x2014;</div>
+    <h1 class="fade-up">Data <span>Communication</span></h1>
+    <div class="divider fade-up"></div>
+     <p class="fade-up subtitle">A comprehensive overview on course outline</p>
+
+    <div class="content-grid">
+
+      <!-- CARD 1 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>Introduction to Data Communication</h3>
+        <p>Data communication refers to the exchange of data between two or more devices through a transmission medium such as cables or wireless signals.</p>
+        <div class="card-section">Components</div>
+        <ul>
+          <li><strong>Sender &amp; Receiver:</strong> Computers, phones, IoT devices</li>
+          <li><strong>Message:</strong> Text, numbers, images, audio, video</li>
+          <li><strong>Medium:</strong> Copper cables, fiber optics, air (wireless)</li>
+          <li><strong>Protocol:</strong> Defines syntax (format), semantics (meaning), timing (speed/order)</li>
+        </ul>
+        <div class="card-section">Data Flow Types</div>
+        <ul>
+          <li><strong>Simplex:</strong> One-way (e.g., keyboard → computer)</li>
+          <li><strong>Half-Duplex:</strong> Both directions but not simultaneously (walkie-talkie)</li>
+          <li><strong>Full-Duplex:</strong> Simultaneous two-way (phone call)</li>
+        </ul>
+        <div class="card-section">Performance Metrics</div>
+        <ul>
+          <li><strong>Bandwidth:</strong> Maximum data capacity (bps)</li>
+          <li><strong>Throughput:</strong> Actual data transferred</li>
+          <li><strong>Latency (Delay):</strong> Time taken to deliver data</li>
+          <li><strong>Bit Error Rate (BER):</strong> Number of corrupted bits</li>
+        </ul>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>Networking Fundamentals</h3>
+        <p>Networking is the process of connecting two or more computers or devices so they can communicate, share data, and use resources.</p>
+        <div class="card-section">Key Features</div>
+        <ul>
+          <li><strong>Communication:</strong> Devices exchange data (messages, files, videos)</li>
+          <li><strong>Resource Sharing:</strong> Share printers, storage, internet</li>
+          <li><strong>Centralized Management:</strong> Control systems from one place</li>
+          <li><strong>Scalability:</strong> Easily add more devices</li>
+        </ul>
+        <div class="card-section">Types of Networks</div>
+        <ul>
+          <li><strong>LAN:</strong> Small area (home, school, office)</li>
+          <li><strong>WAN:</strong> Large area (e.g., the internet)</li>
+          <li><strong>MAN:</strong> Covers a city</li>
+        </ul>
+        <div class="card-section">Switching Techniques</div>
+        <ul>
+          <li><strong>Circuit Switching:</strong> Dedicated path (telephone systems)</li>
+          <li><strong>Packet Switching:</strong> Data split into packets (internet)</li>
+          <li><strong>Message Switching:</strong> Entire message sent at once (obsolete)</li>
+        </ul>
+        <div class="card-section">IP Addressing &amp; Ports</div>
+        <ul>
+          <li><strong>IPv4:</strong> 32-bit (e.g., 192.168.1.1)</li>
+          <li><strong>IPv6:</strong> 128-bit (for more devices)</li>
+          <li><strong>HTTP → Port 80 · HTTPS → Port 443 · FTP → Port 21</strong></li>
+        </ul>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>Network Reference Models</h3>
+        <p>Standard frameworks describing how data moves from one device to another, broken into layers for easier design, understanding, and troubleshooting.</p>
+        <div class="card-section">Why They Matter</div>
+        <ul>
+          <li>Provide a standard for communication</li>
+          <li>Ensure interoperability between different systems</li>
+          <li>Help troubleshoot network problems</li>
+          <li>Simplify network design and learning</li>
+        </ul>
+        <div class="card-section">OSI Model (7 Layers)</div>
+        <ul>
+          <li><strong>Physical:</strong> Bit transmission, cables, voltages</li>
+          <li><strong>Data Link:</strong> MAC addressing, error detection (CRC)</li>
+          <li><strong>Network:</strong> Logical addressing (IP), routing</li>
+          <li><strong>Transport:</strong> Segmentation, flow control, error recovery</li>
+          <li><strong>Session:</strong> Establishes, manages, terminates sessions</li>
+          <li><strong>Presentation:</strong> Encryption, compression, translation</li>
+          <li><strong>Application:</strong> Interfaces (HTTP, FTP, SMTP)</li>
+        </ul>
+        <div class="card-section">TCP/IP Model (4 Layers)</div>
+        <ul>
+          <li><strong>Application:</strong> HTTP, DNS, FTP</li>
+          <li><strong>Transport:</strong> TCP (reliable), UDP (fast but unreliable)</li>
+          <li><strong>Internet:</strong> IP routing</li>
+          <li><strong>Network Access:</strong> Physical transmission</li>
+        </ul>
+        <div class="card-section">Encapsulation</div>
+        <ul><li>Data → Segment → Packet → Frame → Bits</li></ul>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>Transmission Media</h3>
+        <p>The physical or wireless path through which data travels from one device to another in a network.</p>
+        <div class="card-section">Guided Media</div>
+        <ul>
+          <li><strong>Twisted Pair (UTP/STP):</strong> Used in LANs &amp; telephone lines. Low cost, easy to install. Limited speed &amp; distance.</li>
+          <li><strong>Coaxial Cable:</strong> Central copper core with shielding. Used in cable TV &amp; broadband. Higher bandwidth than twisted pair; bulky &amp; expensive.</li>
+          <li><strong>Fiber Optics:</strong> Uses light signals. Single-mode (long-distance) &amp; multi-mode (shorter). Very high speed, immune to EMI; expensive &amp; delicate.</li>
+        </ul>
+        <div class="card-section">Unguided Media</div>
+        <ul>
+          <li><strong>Radio Waves:</strong> Omnidirectional. Used in Wi-Fi &amp; mobile networks. Can pass through walls.</li>
+          <li><strong>Microwaves:</strong> Require line-of-sight. Used in satellite &amp; long-distance communication. High frequency → higher data capacity.</li>
+          <li><strong>Satellite Signals:</strong> Global coverage.</li>
+        </ul>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>Signals</h3>
+        <p>A signal is a physical representation of data used to transmit information from one device to another through transmission media.</p>
+        <div class="card-section">Types of Signals</div>
+        <ul>
+          <li><strong>Analog:</strong> Continuous waveform (smooth curve). Infinite values within a range. Common in audio &amp; radio.</li>
+          <li><strong>Digital:</strong> Discrete values (0 and 1). Represented as square waves. Used in computers &amp; modern communication.</li>
+        </ul>
+        <div class="card-section">Signal Representation</div>
+        <ul>
+          <li><strong>Time Domain:</strong> Signal over time</li>
+          <li><strong>Frequency Domain:</strong> Signal spectrum</li>
+        </ul>
+        <div class="card-section">Signal Impairments</div>
+        <ul>
+          <li><strong>Noise:</strong> Unwanted disturbance causing errors in transmission</li>
+          <li><strong>Attenuation:</strong> Loss of signal strength over distance (common in long cables)</li>
+          <li><strong>Distortion:</strong> Signal changes shape when different frequencies travel at different speeds</li>
+        </ul>
+        <div class="card-section">Modulation</div>
+        <ul>
+          <li><strong>Analog:</strong> AM (Amplitude), FM (Frequency), PM (Phase)</li>
+          <li><strong>Digital:</strong> ASK (Amplitude Shift Keying), FSK (Frequency), PSK (Phase)</li>
+        </ul>
+        <div class="card-section">Data Rate vs Bandwidth</div>
+        <ul>
+          <li><strong>Data Rate:</strong> Speed of data transmission (bps)</li>
+          <li><strong>Bandwidth:</strong> Capacity of the channel — higher bandwidth = more data</li>
+        </ul>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>Satellite Communication</h3>
+        <p>Transmitting signals over long distances using artificial satellites in space, enabling communication without direct physical connections.</p>
+        <div class="card-section">How It Works</div>
+        <ul>
+          <li>Signal sent from Earth station to satellite (<strong>uplink</strong>)</li>
+          <li>Satellite receives &amp; amplifies via a <strong>transponder</strong></li>
+          <li>Signal sent back to another Earth station (<strong>downlink</strong>)</li>
+        </ul>
+        <div class="card-section">Types of Satellites</div>
+        <ul>
+          <li><strong>GEO (36,000 km):</strong> Appears stationary. Used for TV broadcasting &amp; weather monitoring.</li>
+          <li><strong>MEO:</strong> Between GEO &amp; LEO. Used for GPS navigation.</li>
+          <li><strong>LEO (500–2,000 km):</strong> Low latency. Used for modern internet services.</li>
+        </ul>
+        <div class="card-section">Frequency Bands</div>
+        <ul>
+          <li><strong>C-band:</strong> Less interference</li>
+          <li><strong>Ku-band:</strong> Higher frequency, used in TV</li>
+          <li><strong>Ka-band:</strong> High-speed internet</li>
+        </ul>
+        <div class="card-section">Advantages</div>
+        <ul>
+          <li>Covers large geographical areas</li>
+          <li>Useful in remote &amp; rural locations</li>
+          <li>Supports broadcasting &amp; global communication</li>
+        </ul>
+        <div class="card-section">Disadvantages</div>
+        <ul>
+          <li>High cost of launching &amp; maintaining</li>
+          <li>Signal delay (latency), especially GEO</li>
+          <li>Weather interference (rain fade)</li>
+        </ul>
+        <div class="card-section">Applications</div>
+        <ul>
+          <li>TV broadcasting · Internet services · Weather forecasting · GPS &amp; navigation · Military communication</li>
+        </ul>
+      </div>
+
+      <!-- CARD 7 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>CIA Triad &amp; Cryptography</h3>
+        <div class="card-section">CIA Triad</div>
+        <ul>
+          <li><strong>Confidentiality:</strong> Only authorised users can access data. Methods: encryption, passwords &amp; authentication, access control.</li>
+          <li><strong>Integrity:</strong> Data is accurate and not altered. Methods: hashing, checksums, digital signatures.</li>
+          <li><strong>Availability:</strong> Data &amp; systems accessible when needed. Methods: backups, redundancy systems, disaster recovery plans.</li>
+        </ul>
+        <div class="card-section">Cryptography</div>
+        <p class="crypto-summary">Protecting information by converting it into a secure format so only authorised users can read it.</p>
+        <ul>
+          <li><strong>Plaintext:</strong> Original readable data</li>
+          <li><strong>Ciphertext:</strong> Encrypted (unreadable) data</li>
+          <li><strong>Encryption:</strong> Plaintext → Ciphertext</li>
+          <li><strong>Decryption:</strong> Ciphertext → Plaintext</li>
+        </ul>
+        <div class="card-section">Encryption Types</div>
+        <ul>
+          <li><strong>Symmetric (AES):</strong> One shared key for encryption &amp; decryption. Fast &amp; efficient.</li>
+          <li><strong>Asymmetric (RSA):</strong> Public + private key pair.</li>
+        </ul>
+        <div class="card-section">Other Techniques</div>
+        <ul>
+          <li><strong>Hash Functions (SHA-256):</strong> One-way, fixed-length output. Used in passwords.</li>
+          <li><strong>Digital Signatures:</strong> Verify authenticity and integrity.</li>
+        </ul>
+      </div>
+
+        <!-- CARD 8 -->
+      <div class="content-card">
+        <div class="card-icon"></div>
+        <h3>Telegraph</h3>
+        <p>A device that transmits coded messages as electrical pulses through wires. Invented by Samuel Morse — the first long-distance electrical communication system.</p>
+        <div class="card-section">How It Works</div>
+        <ul>
+          <li>Sender presses a telegraph key (switch)</li>
+          <li>Electrical pulses travel through a wire</li>
+          <li>Electromagnet at receiver converts pulses into clicks or marks</li>
+          <li>Message decoded using Morse Code</li>
+        </ul>
+        <div class="card-section">Morse Code</div>
+        <ul>
+          <li>System of dots (·) and dashes (–)</li>
+          <li><strong>A</strong> = · – &nbsp; <strong>B</strong> = – · · · &nbsp; <strong>SOS</strong> = · · · – – – · · ·</li>
+        </ul>
+        <div class="card-section">Key Components</div>
+        <ul>
+          <li><strong>Telegraph Key:</strong> Sends signals</li>
+          <li><strong>Transmission Wire:</strong> Carries electrical signals</li>
+          <li><strong>Battery:</strong> Provides power</li>
+          <li><strong>Sounder/Receiver:</strong> Converts signals into sound</li>
+        </ul>
+        <div class="card-section">Importance</div>
+        <ul>
+          <li>First instant long-distance communication system</li>
+          <li>Replaced slow methods like letters</li>
+          <li>Widely used in military, railways, and business</li>
+          <li>Introduced encoding/decoding, signal transmission &amp; protocols</li>
+        </ul>
+        <div class="card-section">Limitations</div>
+        <ul>
+          <li>Required skilled operators (Morse code)</li>
+          <li>Text-based messages only</li>
+          <li>Limited speed compared to modern systems</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── SECTION 3: RESOURCES ── -->
+  <section id="resources">
+    <div class="section-header">
+      <h2>Resources</h2>
+    </div>
+
+    <div class="resources-grid">
+
+      <div class="resource-card">
+        <div class="resource-icon"></div>
+        <h3>Course Assignment</h3>
+        <p class="desc">A research made on Satellite Communication.</p>
+        <a class="btn-gold" href="Assignment/Data%20Comm%20Assignment.pdf" target="_blank" rel="noopener">
+          Open Assignment
+        </a>
+      </div>
+<div class="video-wrapper">
+  <div class="video-header">
+    <span class="video-title">Video Lecture — Pretty Good Privacy</span>
+  </div>
+  <div class="video-embed">
+    <!-- Custom thumbnail overlay -->
+    <div class="video-thumb" id="videoThumb">
+      <img src="https://img.youtube.com/vi/wrGzSAcJdaE/hqdefault.jpg" alt="PGP Video Thumbnail"/>
+      <button class="play-btn" aria-label="Play video">
+        <svg viewBox="0 0 68 48" width="68" height="48">
+          <path d="M66.5 7.7c-.8-2.9-3-5.1-5.9-5.9C55.8 0 34 0 34 0S12.2 0 7.4 1.8C4.5 2.6 2.3 4.8 1.5 7.7 0 12.5 0 24 0 24s0 11.5 1.5 16.3c.8 2.9 3 5.1 5.9 5.9C12.2 48 34 48 34 48s21.8 0 26.6-1.8c2.9-.8 5.1-3 5.9-5.9C68 35.5 68 24 68 24s0-11.5-1.5-16.3z" fill="#ff0000"/>
+          <path d="M27 34l18-10-18-10v20z" fill="#fff"/>
+        </svg>
+      </button>
+    </div>
+    <iframe
+      id="videoIframe"
+      style="display:none;"
+      src=""
+      data-src="https://www.youtube.com/embed/wrGzSAcJdaE?&mute=0&start=3&playsinline=1&autoplay=1&rel=0&modestbranding=1"
+      title="Pretty Good Privacy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <div class="footer-logo">DataComm <span>Summary</span></div>
+        <p class="footer-tagline">A summary of topics under data communication taught and learnt, built with appreciation.</p>
+      </div>
+
+      <div class="footer-nav">
+        <div class="footer-col">
+          <div class="footer-col-title">Navigate</div>
+          <ul>
+            <li><a href="#bio">My Bio</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Topics</div>
+          <ul>
+            <li>Data Communication</li>
+            <li>Networking Fundamentals</li>
+            <li>OSI &amp; TCP/IP Models</li>
+            <li>Transmission Media</li>
+            <li>Satellite Communication</li>
+            <li>Signals &amp; Modulation</li>
+            <li>Telegraph</li>
+            <li>CIA Triad &amp; Cryptography</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-ref">Reference</div>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=wrGzSAcJdaE&t=3s" target="_blank" rel="noopener">Video Lecture</a></li>
+            <li><a href="Assignment/Data%20Comm%20Assignment.pdf" target="_blank" rel="noopener">Course Assignment</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-divider"></div>
+      <div class="footer-bottom-row">
+        <p>&copy; 2026 <span>Data Communication Lession Summary</span>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- tsParticles CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+  <script>
+    if (window.tsParticles) {
+      tsParticles.load("tsparticles", {
+        background: {
+          color: "transparent" // IMPORTANT: don't override your design
+        },
+        particles: {
+          number: {
+            value: 70
+          },
+          color: {
+            value: "#38bdf8"
+          },
+          links: {
+            enable: true,
+            color: "#38bdf8",
+            distance: 140,
+            opacity: 0.3
+          },
+          move: {
+            enable: true,
+            speed: 1.2
+          },
+          size: {
+            value: { min: 1, max: 2 }
+          },
+          opacity: {
+            value: 0.4
+          }
+        },
+        interactivity: {
+          events: {
+            onHover: {
+              enable: true,
+              mode: "grab"
+            }
+          }
+        }
+      });
+    }
+
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+    if (!reduceMotion.matches) {
+      document.body.classList.add("reveal-ready");
+
+      const sections = Array.from(document.querySelectorAll("section[id]"));
+      const navLinks = Array.from(document.querySelectorAll('.nav-links a[href^="#"]'));
+      let ticking = false;
+
+      const setCurrentSection = () => {
+        const focusLine = window.innerHeight * 0.42;
+        let current = sections[0];
+        let bestDistance = Number.POSITIVE_INFINITY;
+
+        sections.forEach((section) => {
+          const rect = section.getBoundingClientRect();
+          const sectionIsInView = rect.top < window.innerHeight * 0.75 && rect.bottom > window.innerHeight * 0.25;
+          const distance = Math.abs(rect.top - focusLine);
+
+          if (sectionIsInView && distance < bestDistance) {
+            current = section;
+            bestDistance = distance;
+          }
+        });
+
+        sections.forEach((section) => {
+          section.classList.toggle("is-visible", section === current);
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.toggle("is-current", link.getAttribute("href") === `#${current.id}`);
+        });
+
+        ticking = false;
+      };
+
+      const requestCurrentSection = () => {
+        if (!ticking) {
+          window.requestAnimationFrame(setCurrentSection);
+          ticking = true;
+        }
+      };
+
+      setCurrentSection();
+      window.addEventListener("scroll", requestCurrentSection, { passive: true });
+      window.addEventListener("resize", requestCurrentSection);
+    }
+  </script>
+  <script>
+  const toggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('is-open');
+    toggle.classList.toggle('is-open', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+
+  // Close menu when a link is clicked
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('is-open');
+      toggle.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+<script>
+  const thumb = document.getElementById('videoThumb');
+  const iframe = document.getElementById('videoIframe');
+
+  thumb.addEventListener('click', () => {
+    iframe.src = iframe.dataset.src;
+    iframe.style.display = 'block';
+    thumb.style.display = 'none';
+  });
+</script>
+
+</body>
+</html>
